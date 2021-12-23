@@ -1,8 +1,6 @@
 package practice2;
 
-import practice0.Hero;
-
-public class Hero1 {
+public class Hero {
     //引用和指向
     String name;
     float hp;
