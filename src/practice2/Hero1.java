@@ -1,6 +1,8 @@
-package practice0;
+package practice2;
 
-public class DuiXiang {
+import practice0.Hero;
+
+public class Hero1 {
     //引用和指向
     String name;
     float hp;
@@ -8,8 +10,8 @@ public class DuiXiang {
     int moveSpeed;
 
     public static void main(String[] args) {
-        new Hero();
+        new practice0.Hero();
 
-        Hero h=new Hero();
+        practice0.Hero h=new practice0.Hero();
     }
 }
