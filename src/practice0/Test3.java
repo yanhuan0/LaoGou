@@ -12,6 +12,4 @@ public class Test3 {
 
         System.out.println("两个整数的和是" + (a+b));
     }
-
-
 }

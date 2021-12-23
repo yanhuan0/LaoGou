@@ -25,9 +25,5 @@ public class Test4 {
             System.out.println("体重过重");
         }
 
-
-
-        }
-
     }
-
+}

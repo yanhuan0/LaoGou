@@ -30,7 +30,7 @@ public class ShuZu6 {
 
         for (int i=0;i<a.length;i++){
             System.arraycopy(b,i*a[0].length,a[i],0,8);
-            }
+        }
 
         System.out.println();
         for (int j=0;j<a.length;j++) {
@@ -42,5 +42,3 @@ public class ShuZu6 {
         }
     }
 }
-
-

@@ -14,6 +14,6 @@ public class Hero {
     }
     public static void main(String[] args) {
         Hero liujian=new Hero();
-       liujian.p();
+        liujian.p();
     }
 }

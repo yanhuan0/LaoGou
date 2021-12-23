@@ -27,7 +27,7 @@ public class Test7 {
 //                System.out.print(a[i]+ " ");
 //            }
 
-            }
+        }
         System.out.println("");
         System.out.println("排序后：");
         for(int i=0;i<a.length;i++){
