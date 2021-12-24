@@ -6,10 +6,6 @@ public class ADHero1 extends Hero{
             System.out.println(name+"对"+" "+"进行了一次攻击");
         }
 
-        public void attack(Hero h1,Hero h2){
-            System.out.println(name+"攻击了"+h1.name+"和"+h2.name);
-        }
-
         public void attack(Hero...Heros){
             for (int i=0;i<Heros.length;i++){
                 System.out.println(name+"攻击了"+Heros[i].name);
