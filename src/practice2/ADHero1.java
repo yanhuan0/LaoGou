@@ -24,7 +24,7 @@ public class ADHero1 extends Hero{
             Hero h2=new Hero();
             h2.name="提莫";
 
-            hero.attack(h1);
+            hero.attack( h1);
             hero.attack(h1,h2);
         }
 }
