@@ -19,5 +19,8 @@ public class Hero4 {
     public static void main(String[] args) {
         Hero4 garen=new Hero4("盖伦");
         Hero4 teemo=new Hero4("提莫",320);
+
+        System.out.println(garen.name);
+        System.out.println(teemo.name+"\n"+teemo.hp);
     }
 }
