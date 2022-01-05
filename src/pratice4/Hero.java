@@ -4,6 +4,10 @@ public class Hero {
     public String name;
     private float hp;
 
+    public static void battleWin(){
+        System.out.println("hero battle win");
+    }
+
     public void useKill(Mortal m){
         m.die();
     }
