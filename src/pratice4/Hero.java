@@ -39,6 +39,9 @@ public class Hero {
         garen.useKill(ap1);
         garen.useKill(adap1);
 
+        Hero h=new ADHero();
+        h.battleWin();
+
 
     }
 }
