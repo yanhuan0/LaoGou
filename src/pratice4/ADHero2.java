@@ -27,11 +27,19 @@ public class ADHero2 extends Hero2 implements AD {
     }
 
     public int getMoveSpeed(){
+
         return this.moveSpeed;
     }
 
     public int getMoveSpeed2(){
+
         return  super.moveSpeed;
+    }
+
+    //重写useItem，并在其中调用父类的useItem方法
+    public void  useItem(Item i){
+        System.out.println("adhero use item");
+        super.useItem(i);
     }
 
     public static void main(String[] args) {
@@ -39,5 +47,8 @@ public class ADHero2 extends Hero2 implements AD {
 
         System.out.println(h.getMoveSpeed());
         System.out.println(h.getMoveSpeed2());
+
+        LifePotion lp=new LifePotion();
+        h.useItem(lp);
     }
 }
